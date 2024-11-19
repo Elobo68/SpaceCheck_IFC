@@ -380,8 +380,8 @@ if __name__ == '__main__':
 
     Param.Path_ParamSave = r"C:\Users\Public\Space_Check\Configuration.json"
 
-    Param.Space_Model_Path = r"C:\Users\Public\Space_Check\PN1801_17_EXE_MOD_000177_01_H_0810P_GEN_2x3-Finale.ifc"
-    Param.Data_Model_Path=r"C:\Users\Public\Space_Check\PN1629_64_EXE_MOD_000154_03_E_0810P_G10_V20.ifc"
+    Param.Space_Model_Path = r"C:\Users\Public\Space_Check\Space_Model.ifc"
+    Param.Data_Model_Path=r"C:\Users\Public\Space_Check\Object_Model.ifc"
 
     Param.Space_Save = r"C:\Users\Public\Space_Check\Espace_Data.csv"
     Param.Data_Save = r"C:\Users\Public\Space_Check\Metier_Data.csv"
@@ -395,7 +395,7 @@ if __name__ == '__main__':
     Param.Path_MissObject = r"C:\Users\Public\Space_Check\Non_Correspondance.csv"
     Param.Json_Clash2 = r"C:\Users\Public\Space_Check\Lien_Clash2.json"
     Param.CSV_Clash2 = r"C:\Users\Public\Space_Check\Resultat_Clash2.csv"
-    Param.Path_Result= r"C:\Users\Public\Space_Check\Compilation_Resultat_Clash_TEST_IGR.csv"
+    Param.Path_Result= r"C:\Users\Public\Space_Check\Final_Result.csv"
 
     Step1_Clash(Param)
     Step2_DataExport(Param)
